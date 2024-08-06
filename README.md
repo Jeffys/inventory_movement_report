@@ -62,7 +62,7 @@ Better Decision-Making: Access detailed inventory movement data to make informed
 ## Installation
 Download the module from this repository.
 Install the module in your Odoo instance.
-Navigate to the Sales Analysis report to view the new metrics.
+Navigate to the Inventory Products to view the Inventory Movement Report.
 
 ## Usage
 Once installed, the new smart button will be available in the Inventory Products. Click the smart button to view the Inventory Movement Report.
