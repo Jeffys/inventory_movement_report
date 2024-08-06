@@ -52,8 +52,11 @@ Provides the current quantity and value of products in inventory. This assists i
 
 ## Benefits
 Enhanced Inventory Visibility: Gain deeper insights into the movement and status of inventory items, leading to better stock control and management.
+
 Improved Demand Forecasting: Analyze movement trends to predict future inventory needs, ensuring timely replenishment and reducing the risk of stockouts.
+
 Efficient Inventory Management: Track inbound, outbound, and adjusted stock quantities to maintain accurate records and streamline inventory operations.
+
 Better Decision-Making: Access detailed inventory movement data to make informed decisions regarding purchasing, stocking, and sales strategies.
 
 ## Installation
