@@ -65,7 +65,7 @@ Install the module in your Odoo instance.
 Navigate to the Sales Analysis report to view the new metrics.
 
 ## Usage
-Once installed, the new metrics will be available in the Sales Analysis report. Use the filters and grouping options to analyze the data as needed.
+Once installed, the new smart button will be available in the Inventory Products. Click the smart button to view the Inventory Movement Report.
 
 ## Compatibility
 Odoo version: 16.0
