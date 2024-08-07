@@ -36,7 +36,7 @@ Visit our website at www.doodex.net to learn more about our services and how we 
 [get a free audit here](https://www.doodex.net/audit-gratuit)
 
 
-## [Inventory Movement Report](https://www.doodex.net/en/blog/doodex-blog-2/manage-inventory-with-odoo-73)
+## [Product History Report](https://www.doodex.net/en/blog/doodex-blog-2/manage-inventory-with-odoo-73)
 This custom Odoo module provides an insightful report on inventory movement over the last year. It offers a comprehensive view of stock changes, enabling better inventory management and decision-making.
 
 ### Features
@@ -62,13 +62,13 @@ Better Decision-Making: Access detailed inventory movement data to make informed
 ## Installation
 Download the module from this repository.
 Install the module in your Odoo instance.
-Navigate to the Inventory Products to view the Inventory Movement Report.
+Navigate to the Inventory Products to view the Product History Report.
 
 ## Usage
-Once installed, the new smart button will be available in the Inventory Products. Click the smart button to view the Inventory Movement Report.
+Once installed, the new smart button will be available in the Inventory Products. Click the smart button to view the Product History Report.
 
 ## Compatibility
-Odoo version: 16.0
+Odoo version: 17.0
 
 ## License
 This module is licensed under [LGPLv3 licensed](./LICENSE)

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Inventory Movement Report",
+    'name': "Product History Report",
 
     'summary': """
         This custom Odoo module provides an insightful report on inventory movement over the last year. It offers a comprehensive view of stock changes, enabling better inventory management and decision-making.
@@ -27,5 +27,6 @@
 
     'images': ['static/description/banner.png'],
     'license': 'LGPL-3',
-
+    "price": 12.5,
+    "currency": "USD"
 }
