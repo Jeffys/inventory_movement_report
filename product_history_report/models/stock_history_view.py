@@ -30,14 +30,16 @@ class stock_history_view(models.Model):
                     SELECT
                         sm.product_id,
                         sml.date,
-                        CASE WHEN sm.location_dest_id = 8 THEN sml.quantity ELSE 0 END AS income,
-                        CASE WHEN sm.location_id = 8 THEN sml.quantity ELSE 0 END AS outcome
+                        CASE WHEN sl_dest.usage = 'internal' THEN sml.quantity ELSE 0 END AS income,
+                        CASE WHEN sl_src.usage = 'internal' THEN sml.quantity ELSE 0 END AS outcome
                     FROM stock_move sm
                     JOIN (
                         SELECT move_id, SUM(quantity) AS quantity, MIN(date) AS date 
                         FROM stock_move_line 
                         GROUP BY move_id
                     ) sml ON sml.move_id = sm.id
+                    JOIN stock_location sl_dest ON sm.location_dest_id = sl_dest.id
+                    JOIN stock_location sl_src ON sm.location_id = sl_src.id
                     JOIN product_product pp ON pp.id = sm.product_id
                     JOIN product_template pt ON pp.product_tmpl_id = pt.id
                     WHERE sm.state = 'done'
