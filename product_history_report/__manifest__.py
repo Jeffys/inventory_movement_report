@@ -24,9 +24,9 @@
         'views/stock_history_view.xml',
         'views/views.xml',
     ],
-
+    'application': True,
     'images': ['static/description/banner.png'],
     'license': 'LGPL-3',
-    "price": 12.5,
-    "currency": "USD"
+    'price': 12.5,
+    'currency': "USD"
 }

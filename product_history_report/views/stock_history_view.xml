@@ -12,7 +12,6 @@
                     <filter string="Date" name="groupby_date" domain="[]" context="{'group_by':'date'}"/>
                     <filter string="Category" name="groupby_category" domain="[]" context="{'group_by':'categ_id'}"/>
                     <filter string="UOM" name="groupby_uom" domain="[]" context="{'group_by':'uom_id'}"/>
-                    <filter string="Supplier" name="groupby_supplier" domain="[]" context="{'group_by':'supplier_id'}"/>
                 </group>
             </search>
         </field>
@@ -54,10 +53,9 @@
                 <field name="product_template_id"/>
                 <field name="categ_id"/>
                 <field name="uom_id"/>
-                <field name="qty"/>
                 <field name="income"/>
                 <field name="outcome"/>
-                <field name="supplier_id"/>
+                <field name="qty"/>
             </tree>
         </field>
     </record>

@@ -14,8 +14,9 @@ class ProductTemplate(models.Model):
         dt_today = date.today()
         first_of_the_month = dt_today.replace(day=1)
         date_debut = first_of_the_month - relativedelta(months=12)
+        companies = ','.join(map(str, self.env.companies.ids))
 
-        self.env['stock.history.view'].recreate_view(self.id)
+        self.env['stock.history.view'].recreate_view(self.id, companies)
 
         # Fetch the stock history records for the current product template
         list_stock_history_obj = self.env['stock.history.view'].search([('date', '>=', date_debut)])
