@@ -27,7 +27,5 @@
 
     'images': ['static/description/banner.png'],
     'license': 'LGPL-3',
-    'application': True,
-    'price': 12.5,
-    'currency': "USD"
+    'application': False,
 }
