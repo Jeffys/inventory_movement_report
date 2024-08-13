@@ -36,7 +36,7 @@ Visit our website at www.doodex.net to learn more about our services and how we 
 [get a free audit here](https://www.doodex.net/audit-gratuit)
 
 
-## [Inventory Movement Report](https://www.doodex.net/en/blog/doodex-blog-2/manage-inventory-with-odoo-73)
+## [Product History Report](https://www.doodex.net/en/blog/doodex-blog-2/rapport-dhistorique-des-produits-101)
 This custom Odoo module provides an insightful report on inventory movement over the last year. It offers a comprehensive view of stock changes, enabling better inventory management and decision-making.
 
 ### Features
